@@ -255,7 +255,7 @@ pi 1
 ahi s
 pi 1
 '
-EXPECT='mov dword [rsp + 0x68], 0x6c896552
+EXPECT="mov dword [rsp + 0x68], 0x6c896552
 mov dword [rsp + 0x68], 'Read'
-'
+"
 run_test
