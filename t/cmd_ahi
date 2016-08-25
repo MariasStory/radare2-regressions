@@ -247,6 +247,7 @@ EXPECT='            0x100001000      c7055f440000.  mov dword [rip + 0x445f], 0 
 run_test
 
 NAME='ahi s'
+BROKEN=1
 CMDS='e asm.bits=64
 e asm.arch=x86
 wx c74424685265
